@@ -21,7 +21,6 @@ Your users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
 ## Where to find everything
 
@@ -29,7 +28,6 @@ Your task is to build out the project to the designs inside the `/design` folder
 
 The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
 
 You will find all the required assets in the `/images` folder. The assets are already optimized.
 
@@ -83,10 +81,5 @@ We provide templates to help you share your solution once you've submitted it on
 
 The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
 
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
