@@ -1,0 +1,88 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* HEADER
+/*******************************************/
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 3rem 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+nav img {
+  width: 7%;
+  margin-right: auto;
+}
+nav li {
+  margin-right: 7rem;
+}
+/******************************************
+/* MAIN SECTION
+/*******************************************/
+main {
+  display: flex;
+  margin: 3rem 0;
+}
+
+.mainP {
+  padding: 0 4rem;
+  width: 70%;
+}
+.filesimg {
+  display: flex;
+  justify-content: space-around;
+}
+.filesimg img {
+  width: 80%;
+  padding: 0 5rem;
+}
+#eInput {
+  width: 50%;
+  padding: 0.5rem;
+}
+#submitBtn {
+  color: white;
+  border-radius: 0.3rem;
+  background: rgb(103, 149, 246);
+  width: 30%;
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+}
+/******************************************
+/* FONT STYLE AND SIZE
+/*******************************************/
+html {
+  font-size: 62.5%;
+}
+nav {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+}
+main * {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3rem;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}

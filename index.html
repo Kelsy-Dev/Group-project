@@ -5,28 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <!-- external CSS link -->
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- external Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
-
-  Features
-  Team
-  Sign In
-
-  All your files in one secure location, accessible anywhere.
-
-  Fylo stores your most important files in one secure location. 
-  Access them wherever you need, share and collaborate with friends, 
-  family, and co-workers.
-
-  Get Started
+  <nav>
+    <ul>
+      <img src="images/logo.svg" alt="Fylo logo">
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Team</a></li>
+      <li><a href="#">Sign In</a></li>
+    </ul> 
+  </nav>
+  <main>
+    <section class="mainP">
+      <h1>All your files in one secure location, accessible anywhere.</h1>
+      <p>Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
+      <form>
+        <input type="email" placeholder="Enter your email..." id="eInput">
+        <button type="submit" id="submitBtn">Get Started</button>
+      </form>
+    </section>
+    <section class="filesimg">
+      <img src="images/illustration-1.svg" alt="All files in one">
+    </section>
+  </main>
 
   Stay productive, wherever you are
 
