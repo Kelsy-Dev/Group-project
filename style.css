@@ -96,13 +96,15 @@ nav li {
   margin: 0 0.5rem;
 }
 /******************************************
-/* MEDIA QUERIES FIRST SECTION
+/* MEDIA QUERIES
 /*******************************************/
-@media all and (max-width: 375px) {
-  .main .One {
-    flex-wrap: wrap;
+/* @media all and (max-width: 375px) {
+  .main {
+    flex-wrap: wrap-reverse;
+    align-content: space-around;
   }
-}
+} */
+
 /******************************************
 /* SECOND SECTION
 /*******************************************/
