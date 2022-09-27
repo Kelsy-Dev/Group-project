@@ -1,6 +1,7 @@
 /* Box Model Hack */
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 /* Clear fix hack */
@@ -34,6 +35,10 @@ h1 {
   font-size: 3rem;
   font-weight: bold;
 }
+h2 {
+  font-size: 2rem;
+  color: white;
+}
 
 /******************************************
 /* HEADER
@@ -59,12 +64,16 @@ nav li {
 /*******************************************/
 .main {
   display: flex;
+  align-items: center;
   margin: 3rem 0;
 }
 
 .mainP {
   padding: 0 4rem;
   width: 70%;
+}
+.mainP > p {
+  margin: 20px 0;
 }
 .filesimg {
   display: flex;
@@ -93,6 +102,50 @@ nav li {
 
 .main.Two {
   background-image: url('images/bg-curve-desktop.svg');
-  background-size: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   margin-top: 10%;
+}
+#card{
+  box-shadow: 5px 5px 16px grey;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  width: 60%;
+}
+#card > p {
+  line-height: 200%;
+}
+#fylo {
+  color: green;
+  text-decoration: underline;
+}
+
+#card-section {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+#card-section > p {
+  margin-left: 10px;
+}
+#avatar{
+  border-radius: 50%;
+}
+
+#last-section {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #575989;
+  padding: 50px 20px;
+}
+.access {
+  flex: 1;
+}
+
+.accessP {
+  margin: 10px 0;
+  padding-right: 30%;
+  color: white;
 }
