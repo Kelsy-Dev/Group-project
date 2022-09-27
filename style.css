@@ -27,7 +27,7 @@ nav {
   font-family: 'Raleway', sans-serif;
   font-size: 1rem;
 }
-main * {
+footer, main * {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.3rem;
 }
@@ -147,7 +147,7 @@ nav li {
   align-items: center;
   flex-wrap: wrap;
   background-color: #575989;
-  padding: 50px 20px;
+  padding: 40px;
 }
 .access {
   flex: 1;
@@ -158,3 +158,27 @@ nav li {
   padding-right: 30%;
   color: white;
 }
+
+footer {
+  background-color: #07043a;
+  color: white;
+  padding: 20px;
+}
+.footer-section {
+  display: flex;
+  justify-content: center;
+  line-height: 200%;
+}
+.contacts, .about, .terms {
+  margin-right: 11%;
+}
+li{
+  list-style-type: none;
+}
+.contacts-icons {
+  width: 12px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+
