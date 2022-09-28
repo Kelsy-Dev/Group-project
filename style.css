@@ -53,11 +53,11 @@ a {
   color: black;
 }
 nav img {
-  width: 7%;
+  width: 100px;
   margin-right: auto;
 }
 nav li {
-  margin-right: 7rem;
+  margin-right: 7%;
 }
 /******************************************
 /* SECTION ONE
@@ -90,6 +90,7 @@ nav li {
 .eInput, .submitBtn, #card {
   border-radius: 0.3rem;
   padding: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .submitBtn {
@@ -106,13 +107,28 @@ nav li {
 
 /******************************************
 /* MEDIA QUERIES
-/*******************************************/
-/* @media all and (max-width: 375px) {
+******************************************/
+@media all and (max-width: 950px) {
   .main {
     flex-wrap: wrap-reverse;
-    align-content: space-around;
+    justify-content: center;
   }
-} */
+  .filesimg img, .mainP {
+    width: 100%;
+    padding: 3rem;
+  }
+  #eInput {
+    width: 100%;
+  }
+  #submitBtn {
+    width: 100%;
+    padding: 0.5rem 0;
+    margin: 0.5rem 0;
+  }
+  .mainP {
+    text-align: center;
+  }
+}
 
 /******************************************
 /*  SECTION TWO
