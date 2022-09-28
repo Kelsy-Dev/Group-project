@@ -53,11 +53,11 @@ a {
   color: black;
 }
 nav img {
-  width: 7%;
+  width: 100px;
   margin-right: auto;
 }
 nav li {
-  margin-right: 7rem;
+  margin-right: 7%;
 }
 /******************************************
 /* MAIN SECTION
@@ -86,24 +86,39 @@ nav li {
 #eInput {
   width: 50%;
   padding: 0.5rem;
+  margin-right: 0.5rem;
 }
 #submitBtn {
   color: white;
   border-radius: 0.3rem;
   background: rgb(103, 149, 246);
-  width: 30%;
+  width: 40%;
   padding: 0.5rem;
-  margin: 0 0.5rem;
 }
 /******************************************
 /* MEDIA QUERIES
-/*******************************************/
-/* @media all and (max-width: 375px) {
+******************************************/
+@media all and (max-width: 950px) {
   .main {
     flex-wrap: wrap-reverse;
-    align-content: space-around;
+    justify-content: center;
   }
-} */
+  .filesimg img, .mainP {
+    width: 100%;
+    padding: 3rem;
+  }
+  #eInput {
+    width: 100%;
+  }
+  #submitBtn {
+    width: 100%;
+    padding: 0.5rem 0;
+    margin: 0.5rem 0;
+  }
+  .mainP {
+    text-align: center;
+  }
+}
 
 /******************************************
 /* SECOND SECTION
