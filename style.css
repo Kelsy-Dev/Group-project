@@ -90,10 +90,6 @@ nav li {
 }
 #submitBtn {
   color: white;
-  border-radius: 0.3rem;
-  background: rgb(103, 149, 246);
-  width: 40%;
-  padding: 0.5rem;
 }
 /******************************************
 /* MEDIA QUERIES
