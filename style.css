@@ -27,7 +27,7 @@ nav {
   font-family: 'Raleway', sans-serif;
   font-size: 1rem;
 }
-main * {
+footer, main * {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.3rem;
 }
@@ -60,7 +60,7 @@ nav li {
   margin-right: 7%;
 }
 /******************************************
-/* MAIN SECTION
+/* SECTION ONE
 /*******************************************/
 .main {
   display: flex;
@@ -83,14 +83,31 @@ nav li {
   width: 80%;
   padding: 0 5rem;
 }
-#eInput {
+.eInput {
+  border: 1px solid #6a6876;
   width: 50%;
+}
+.eInput, .submitBtn, #card {
+  border-radius: 0.3rem;
   padding: 0.5rem;
   margin-right: 0.5rem;
 }
-#submitBtn {
+
+.submitBtn {
   color: white;
+<<<<<<< HEAD
+=======
+  border: none;
+  background: #2f66f9;
+  box-shadow: 1px 1px 4px grey;
+  width: 30%;
+  margin: 0 0.5rem;
+>>>>>>> 0b8d558efdd8c2df3b3c980daa3ef8057f2a3eef
 }
+.submitBtn.One {
+  box-shadow: 1px 1px 4px black;
+}
+
 /******************************************
 /* MEDIA QUERIES
 ******************************************/
@@ -117,7 +134,7 @@ nav li {
 }
 
 /******************************************
-/* SECOND SECTION
+/*  SECTION TWO
 /*******************************************/
 
 .main.Two {
@@ -130,15 +147,19 @@ nav li {
   box-shadow: 5px 5px 16px grey;
   padding: 20px;
   background-color: white;
-  border-radius: 5px;
   width: 60%;
 }
 #card > p {
   line-height: 200%;
 }
-#fylo {
-  color: green;
-  text-decoration: underline;
+#fylo, hr {
+  color: #049184;
+}
+
+hr {
+  width: 24%;
+  margin-top: -20px;
+  margin-bottom: 30px;
 }
 
 #card-section {
@@ -158,7 +179,7 @@ nav li {
   align-items: center;
   flex-wrap: wrap;
   background-color: #575989;
-  padding: 50px 20px;
+  padding: 40px;
 }
 .access {
   flex: 1;
@@ -169,3 +190,30 @@ nav li {
   padding-right: 30%;
   color: white;
 }
+
+/******************************************
+/*  FOOTER
+/*******************************************/
+
+footer {
+  background-color: #07043a;
+  color: white;
+  padding: 20px;
+}
+.footer-section {
+  display: flex;
+  justify-content: center;
+  line-height: 200%;
+}
+.contacts, .about, .terms {
+  margin-right: 11%;
+}
+li{
+  list-style-type: none;
+}
+.contacts-icons {
+  width: 12px;
+  height: 12px;
+  margin-right: 10px;
+}
+
