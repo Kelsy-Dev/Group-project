@@ -95,14 +95,11 @@ nav li {
 
 .submitBtn {
   color: white;
-<<<<<<< HEAD
-=======
   border: none;
   background: #2f66f9;
   box-shadow: 1px 1px 4px grey;
   width: 30%;
   margin: 0 0.5rem;
->>>>>>> 0b8d558efdd8c2df3b3c980daa3ef8057f2a3eef
 }
 .submitBtn.One {
   box-shadow: 1px 1px 4px black;
