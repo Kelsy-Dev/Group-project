@@ -46,11 +46,14 @@ h2 {
 nav ul {
   display: flex;
   list-style: none;
-  margin: 3rem 0;
+  width: 70%;
+  margin: 3rem auto;
+  align-items: center;
 }
 a {
   text-decoration: none;
   color: black;
+  font-size: 1.2rem;
 }
 nav img {
   width: 100px;
@@ -65,7 +68,8 @@ nav li {
 .main {
   display: flex;
   align-items: center;
-  margin: 3rem 0;
+  width: 70%;
+  margin: 4rem auto;
 }
 
 .mainP {
@@ -80,7 +84,7 @@ nav li {
   justify-content: space-around;
 }
 .filesimg img {
-  width: 80%;
+  width: 100%;
   padding: 0 5rem;
 }
 .eInput {
@@ -103,6 +107,36 @@ nav li {
 }
 .submitBtn.One {
   box-shadow: 1px 1px 4px black;
+}
+
+/***** Keith Section One **********
+***********************************/
+#hero {
+  max-width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5rem 0;
+}
+
+.hero-desc, .hero-img {
+  /* padding: 0 4rem; */
+  width: 40%;
+}
+
+.hero-desc h1 {
+  line-height: 1.5;
+  font-size: 3.2rem;
+}
+
+.hero-desc p {
+  font-size: 1.6rem;
+}
+
+.hero-img img {
+  width: 100%;
+  height: auto;
 }
 
 /******************************************
@@ -134,11 +168,19 @@ nav li {
 /*  SECTION TWO
 /*******************************************/
 
-.main.Two {
+#curvebg {
   background-image: url('images/bg-curve-desktop.svg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  margin-top: 10%;
+}
+
+.main.Two {
+  /* background-image: url('images/bg-curve-desktop.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat; */
+  /* margin-top: 10%; */
+  margin-bottom: 0;
+  padding: 7rem 0;
 }
 #card{
   box-shadow: 5px 5px 16px grey;
