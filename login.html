@@ -2,23 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-    <!-- external CSS link -->
-    <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-      crossorigin="anonymous"
-    />
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
     <!-- external Google fonts -->
@@ -28,18 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <style>
-      .attribution {
-        margin-top: 5vh;
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
-
   <body>
     <!-- ************ HEADER ******************
     ***************************************** -->
@@ -47,113 +21,26 @@
       <nav>
         <ul>
           <img src="images/logo.svg" alt="Fylo logo" />
-          <li><a href="#">Features</a></li>
+          <li><a href="index.html">Features</a></li>
           <li><a href="#">Team</a></li>
-          <li><a href="login.html">Sign In</a></li>
+          <li><a href="#">Sign In</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <!-- ################ SECTION ONE ################
-      ##################################################-->
-      <section id="hero">
-        <div class="hero-desc">
-          <h1>All your files in one secure location, accessible anywhere.</h1>
-          <p>
-            Fylo stores your most important files in one secure location. Access
-            them wherever you need, share and collaborate with friends, family,
-            and co-workers.
-          </p>
-          <form>
-            <input
-              type="email"
-              placeholder="Enter your email..."
-              class="eInput"
-            />
-            <button type="submit" class="submitBtn">Get Started</button>
-          </form>
-        </div>
-        <div class="hero-img">
-          <img src="images/illustration-1.svg" alt="All files in one" />
-        </div>
-      </section>
-
-      <!-- ************ SECTION TWO ******************
-    ********************************************** -->
-
-      <div id="curvebg">
-        <div class="main Two">
-          <section class="mainP two">
-            <h1>Stay productive, wherever you are</h1>
-
-            <p>
-              Never let location be an issue when accessing your files. Fylo has
-              you covered for all of your file storage needs.
-            </p>
-
-            <p>
-              Securely share files and folders with friends, family and
-              colleagues for live collaboration. No email attachments required!
-              <br />
-              <br />
-              <a href="#" id="fylo">
-                See how Fylo works
-                <img src="images/icon-arrow.svg" class="contacts-icons" />
-              </a>
-            </p>
-            <hr />
-
-            <div id="card">
-              <p>
-                <img src="images/icon-quotes.svg" /> <br />
-                Fylo has improved our team productivity by an order of
-                magnitude. Since making the switch our team has become a
-                well-oiled collaboration machine.
-              </p>
-
-              <section id="card-section">
-                <span>
-                  <img
-                    id="avatar"
-                    src="images/avatar-testimonial.jpg"
-                    width="50px"
-                    height="50px"
-                  />
-                </span>
-                <p>
-                  <strong>Kyle Burton</strong> <br />
-                  Founder & CEO, Huddle
-                </p>
-              </section>
-            </div>
-          </section>
-          <section class="filesimg">
-            <img src="images/illustration-2.svg" alt="Stay Productive" />
-          </section>
-        </div>
+    <!-- LOGIN COMPONENT -->
+    <div class="wrapper">
+      <div class="login-container">
+        <form class="login">
+          <input type="text" class="username" placeholder="Username Input..." />
+          <input
+            type="password"
+            class="password"
+            placeholder="Password Input..."
+          />
+          <input type="button" value="Sign In" />
+        </form>
       </div>
-
-      <div id="last-section">
-        <div class="access">
-          <h2>Get early access today</h2>
-
-          <p class="accessP">
-            It only takes a minute to sign up and our free starter tier is
-            extremely generous. If you have any questions, our support team
-            would be happy to help you.
-          </p>
-        </div>
-        <div class="free access">
-          <input type="email" placeholder="email@example.com" class="eInput" />
-          <br />
-          <br />
-          <button type="submit" class="submitBtn One">
-            Get Started For Free
-          </button>
-        </div>
-      </div>
-    </main>
-
+    </div>
     <!-- ************ FOOTER ******************
     ***************************************** -->
 
