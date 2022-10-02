@@ -46,9 +46,7 @@ h2 {
 nav ul {
   display: flex;
   list-style: none;
-  width: 70%;
   margin: 3rem auto;
-  align-items: center;
 }
 a {
   text-decoration: none;
@@ -65,12 +63,6 @@ nav li {
 /******************************************
 /* SECTION ONE
 /*******************************************/
-.main {
-  display: flex;
-  align-items: center;
-  width: 70%;
-  margin: 4rem auto;
-}
 
 .mainP {
   padding: 0 4rem;
@@ -79,10 +71,7 @@ nav li {
 .mainP > p {
   margin: 20px 0;
 }
-.filesimg {
-  display: flex;
-  justify-content: space-around;
-}
+
 .filesimg img {
   width: 100%;
   padding: 0 5rem;
@@ -111,8 +100,8 @@ nav li {
 
 /***** Keith Section One **********
 ***********************************/
-#hero {
-  max-width: 70%;
+.section {
+  /* max-width: 70%; */
   margin: auto;
   display: flex;
   align-items: center;
@@ -120,30 +109,11 @@ nav li {
   padding: 5rem 0;
 }
 
-.hero-desc, .hero-img {
-  /* padding: 0 4rem; */
-  width: 40%;
-}
-
-.hero-desc h1 {
-  line-height: 1.5;
-  font-size: 3.2rem;
-}
-
-.hero-desc p {
-  font-size: 1.6rem;
-}
-
-.hero-img img {
-  width: 100%;
-  height: auto;
-}
-
 /******************************************
 /* MEDIA QUERIES
 ******************************************/
-@media all and (max-width: 950px) {
-  .main {
+@media all and (max-width: 768px) {
+  .section {
     flex-wrap: wrap-reverse;
     justify-content: center;
   }
@@ -151,17 +121,64 @@ nav li {
     width: 100%;
     padding: 3rem;
   }
-  #eInput {
-    width: 100%;
+  .eInput, .submitBtn, .access {
+    width: 70%;
+    margin: 0 auto;
   }
-  #submitBtn {
-    width: 100%;
+  .submitBtn {
     padding: 0.5rem 0;
-    margin: 0.5rem 0;
+    margin: 0.5rem auto;
   }
   .mainP {
     text-align: center;
   }
+  #card, hr{
+    margin: 0 auto;
+  }
+  form, #last-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .access {
+    text-align: center;
+  }
+  #card {
+    width: 60%;
+  }
+
+
+}
+
+/******************************************
+/*  WIDER VIEW
+/*******************************************/
+
+@media all and (min-width: 1280px) {
+  .section, nav ul {
+    max-width: 70%;
+  }
+  .mainP, .filesimg {
+    padding: 0 4rem;
+    width: 50%;
+  }
+  
+  .mainP h1 {
+    line-height: 1.5;
+    font-size: 3.2rem;
+  }
+  
+  .mainP p {
+    font-size: 1.6rem;
+  }
+  
+  .filesimg img {
+    width: 100%;
+    height: auto;
+  }
+  #card {
+    width: 100%;
+  }
+
 }
 
 /******************************************
@@ -172,14 +189,16 @@ nav li {
   background-image: url('images/bg-curve-desktop.svg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  display: flex;
 }
 
-.main.Two {
+.section.Two {
   /* background-image: url('images/bg-curve-desktop.svg');
   background-size: 100% 100%;
   background-repeat: no-repeat; */
   /* margin-top: 10%; */
   margin-bottom: 0;
+  display: flex;
   padding: 7rem 0;
 }
 #card{
@@ -196,7 +215,7 @@ nav li {
 }
 
 hr {
-  width: 24%;
+  width: 22%;
   margin-top: -20px;
   margin-bottom: 30px;
 }
@@ -226,7 +245,7 @@ hr {
 
 .accessP {
   margin: 10px 0;
-  padding-right: 30%;
+  width: 65%;
   color: white;
 }
 
